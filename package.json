@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "@cypress/grep": "^5.0.1",
+    "cypress": "^15.0.0"
+  },
+  "scripts": {
+    "cypress:open": "npx cypress open",
+    "cypress:run": "npx cypress run",
+    "cypress:chrome": "npx cypress run --browser chrome",
+    "cypress:edge": "npx cypress run --browser edge"
+  }
+}
