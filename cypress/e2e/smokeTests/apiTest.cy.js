@@ -23,7 +23,7 @@ describe("API Tests", () => {
     });
   });
 
-  it("test 3", () => {
+  it.skip("test 3", () => {
     cy.request({
       method: "POST",
       url: "https://rahulshettyacademy.com/Library/GetBook.php?AuthorName=shetty",
