@@ -1,7 +1,10 @@
 {
   "devDependencies": {
     "@cypress/grep": "^5.0.1",
-    "cypress": "^15.0.0"
+    "cypress": "^15.0.0",
+    "mochawesome": "^7.1.4",
+    "mochawesome-merge": "^5.1.0",
+    "mochawesome-report-generator": "^6.3.2"
   },
   "scripts": {
     "cypress:open": "npx cypress open",
